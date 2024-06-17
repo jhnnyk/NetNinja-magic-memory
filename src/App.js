@@ -50,15 +50,12 @@ function App() {
         })
         resetTurn()
       } else {
-        
-        resetTurn()
+        setTimeout(() => resetTurn(), 1000)
       }
     }
   }, [choiceOne, choiceTwo])
   // useEffect hook runs once when the component is created
   // and then again if any dependencies (in the array) change
-
-  console.log(cards)
 
   // reset choices & increase turn
   const resetTurn = () => {
@@ -77,6 +74,7 @@ function App() {
             key={card.id} 
             card={card} 
             handleChoice={handleChoice}
+            flipped={card === choiceOne || card === choiceTwo || card.matched}
           />
         ))}
       </div>
