@@ -14,7 +14,7 @@ export default function SingleCard({ card, handleChoice, flipped, disabled }) {
         <img src={card.src} className='front' alt="card front" />
         <img
           className='back'
-          src='/img/cover.png'
+          src='/NetNinja-magic-memory/img/cover.png'
           onClick={handleClick}
           alt="card back"
         />
