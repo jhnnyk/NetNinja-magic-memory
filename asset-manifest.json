@@ -1,0 +1,13 @@
+{
+  "files": {
+    "main.css": "/NetNinja-magic-memory/static/css/main.c576e2ab.css",
+    "main.js": "/NetNinja-magic-memory/static/js/main.797c8610.js",
+    "index.html": "/NetNinja-magic-memory/index.html",
+    "main.c576e2ab.css.map": "/NetNinja-magic-memory/static/css/main.c576e2ab.css.map",
+    "main.797c8610.js.map": "/NetNinja-magic-memory/static/js/main.797c8610.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.c576e2ab.css",
+    "static/js/main.797c8610.js"
+  ]
+}
